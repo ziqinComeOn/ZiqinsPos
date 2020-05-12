@@ -68,15 +68,15 @@
                             <el-tab-pane label="汉堡">
                                 <ul class="cookList">
                                     <li v-for="goods in type0Goods" v-bind:key="goods.goodsId">
-                                        <div class="foodImg-left">
+<!--                                        <div class="foodImg-left">-->
                                              <span class="foodImg">
                                                 <img :src="goods.goodsImg" alt="" width="100%">
                                              </span>
-                                        </div>
-                                        <div class="foodImg-right">
+<!--                                        </div>-->
+<!--                                        <div class="foodImg-right">-->
                                             <span class="foodName">{{goods.goodsName}}</span>
                                             <span class="foodPrice">￥{{goods.price}}元</span>
-                                        </div>
+<!--                                        </div>-->
                                     </li>
                                 </ul>
                             </el-tab-pane>
